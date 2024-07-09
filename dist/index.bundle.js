@@ -46,7 +46,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
   \*******************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst minam = \"아무나\";\nexports[\"default\"] = minam;\n\n//# sourceURL=webpack://reactprac/./static/basic-data.tsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst minam = \"test\";\nexports[\"default\"] = minam;\n\n//# sourceURL=webpack://reactprac/./static/basic-data.tsx?");
 
 /***/ }),
 
