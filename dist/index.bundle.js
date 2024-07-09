@@ -16,7 +16,7 @@
   \*********************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nconst minam_1 = __importDefault(__webpack_require__(/*! ./minam */ \"./src/minam.tsx\"));\nconst basic_data_1 = __importDefault(__webpack_require__(/*! ./static/basic-data */ \"./src/static/basic-data.tsx\"));\nconst ul_1 = __importDefault(__webpack_require__(/*! ./ul */ \"./src/ul.tsx\"));\nconst li_1 = __importDefault(__webpack_require__(/*! ./li */ \"./src/li.tsx\"));\nconst App = () => {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(minam_1.default, {\n      textNode: basic_data_1.default\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"Hello\"\n    }), (0, jsx_runtime_1.jsx)(ul_1.default, {\n      textNode: (0, jsx_runtime_1.jsx)(li_1.default, {\n        textNode: basic_data_1.default\n      })\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://reactprac/./src/app.tsx?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nconst minam_1 = __importDefault(__webpack_require__(/*! ./minam */ \"./src/minam.tsx\"));\nconst basic_data_1 = __importDefault(__webpack_require__(/*! ./static/basic-data */ \"./src/static/basic-data.tsx\"));\nconst ul_1 = __importDefault(__webpack_require__(/*! ./ul */ \"./src/ul.tsx\"));\nconst li_1 = __importDefault(__webpack_require__(/*! ./li */ \"./src/li.tsx\"));\nconst array_data_1 = __importDefault(__webpack_require__(/*! ./static/array-data */ \"./src/static/array-data.tsx\"));\nconst App = () => {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(minam_1.default, {\n      textNode: basic_data_1.default\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"Hello\"\n    }), (0, jsx_runtime_1.jsx)(ul_1.default, {\n      children: array_data_1.default.map((item, index) => (0, jsx_runtime_1.jsx)(li_1.default, {\n        textNode: item\n      }, index))\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://reactprac/./src/app.tsx?");
 
 /***/ }),
 
@@ -50,6 +50,16 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
 
 /***/ }),
 
+/***/ "./src/static/array-data.tsx":
+/*!***********************************!*\
+  !*** ./src/static/array-data.tsx ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst arr = [\"one\", \"two\", \"three\", \"four\", \"five\", \"six\", \"seven\", \"eight\"];\nexports[\"default\"] = arr;\n\n//# sourceURL=webpack://reactprac/./src/static/array-data.tsx?");
+
+/***/ }),
+
 /***/ "./src/static/basic-data.tsx":
 /*!***********************************!*\
   !*** ./src/static/basic-data.tsx ***!
@@ -66,7 +76,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
   \********************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nconst ul = ({\n  textNode\n}) => {\n  return (0, jsx_runtime_1.jsx)(\"ul\", {\n    children: textNode\n  });\n};\nexports[\"default\"] = ul;\n\n//# sourceURL=webpack://reactprac/./src/ul.tsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nconst Ul = ({\n  children\n}) => {\n  return (0, jsx_runtime_1.jsx)(\"ul\", {\n    children: children\n  });\n};\nexports[\"default\"] = Ul;\n\n//# sourceURL=webpack://reactprac/./src/ul.tsx?");
 
 /***/ }),
 
