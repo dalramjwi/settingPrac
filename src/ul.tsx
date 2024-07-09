@@ -1,7 +1,7 @@
-interface textNode {
-  textNode: React.ReactNode;
+interface ChildrenProps {
+  children: React.ReactNode;
 }
-const ul: React.FC<textNode> = ({ textNode }) => {
-  return <ul>{textNode}</ul>;
+const Ul: React.FC<ChildrenProps> = ({ children }) => {
+  return <ul>{children}</ul>;
 };
-export default ul;
+export default Ul;
