@@ -16,7 +16,7 @@
   \*********************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nconst minam_1 = __importDefault(__webpack_require__(/*! ./minam */ \"./src/minam.tsx\"));\nconst basic_data_1 = __importDefault(__webpack_require__(/*! ./static/basic-data */ \"./src/static/basic-data.tsx\"));\nconst ul_1 = __importDefault(__webpack_require__(/*! ./ul */ \"./src/ul.tsx\"));\nconst li_1 = __importDefault(__webpack_require__(/*! ./li */ \"./src/li.tsx\"));\nconst array_data_1 = __importDefault(__webpack_require__(/*! ./static/array-data */ \"./src/static/array-data.tsx\"));\nconst bin_1 = __importDefault(__webpack_require__(/*! ./bin */ \"./src/bin.tsx\"));\nlet styles = {\n  color: \"white\",\n  backgroundColor: \"black\",\n  fontSize: \"48px\"\n};\nconst App = () => {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(minam_1.default, {\n      textNode: basic_data_1.default\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"Hello\"\n    }), (0, jsx_runtime_1.jsx)(bin_1.default, {\n      h1TextNode: basic_data_1.default,\n      styles: styles\n    }), (0, jsx_runtime_1.jsx)(ul_1.default, {\n      children: array_data_1.default.map((item, index) => (0, jsx_runtime_1.jsx)(li_1.default, {\n        textNode: item\n      }, index))\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://reactprac/./src/app.tsx?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nconst minam_1 = __importDefault(__webpack_require__(/*! ./minam */ \"./src/minam.tsx\"));\nconst basic_data_1 = __importDefault(__webpack_require__(/*! ./static/basic-data */ \"./src/static/basic-data.tsx\"));\nconst ul_1 = __importDefault(__webpack_require__(/*! ./ul */ \"./src/ul.tsx\"));\nconst li_1 = __importDefault(__webpack_require__(/*! ./li */ \"./src/li.tsx\"));\nconst array_data_1 = __importDefault(__webpack_require__(/*! ./static/array-data */ \"./src/static/array-data.tsx\"));\nconst bin_1 = __importDefault(__webpack_require__(/*! ./bin */ \"./src/bin.tsx\"));\nconst style_1 = __importDefault(__webpack_require__(/*! ./static/style */ \"./src/static/style.tsx\"));\nconst App = () => {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(minam_1.default, {\n      textNode: basic_data_1.default\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"Hello\"\n    }), (0, jsx_runtime_1.jsx)(bin_1.default, {\n      h1TextNode: basic_data_1.default,\n      styles: style_1.default\n    }), (0, jsx_runtime_1.jsx)(ul_1.default, {\n      children: array_data_1.default.map((item, index) => (0, jsx_runtime_1.jsx)(li_1.default, {\n        textNode: item\n      }, index))\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://reactprac/./src/app.tsx?");
 
 /***/ }),
 
@@ -77,6 +77,16 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
 /***/ ((__unused_webpack_module, exports) => {
 
 eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst minam = \"test\";\nexports[\"default\"] = minam;\n\n//# sourceURL=webpack://reactprac/./src/static/basic-data.tsx?");
+
+/***/ }),
+
+/***/ "./src/static/style.tsx":
+/*!******************************!*\
+  !*** ./src/static/style.tsx ***!
+  \******************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nlet styles = {\n  color: \"white\",\n  backgroundColor: \"black\",\n  fontSize: \"48px\"\n};\nexports[\"default\"] = styles;\n\n//# sourceURL=webpack://reactprac/./src/static/style.tsx?");
 
 /***/ }),
 
