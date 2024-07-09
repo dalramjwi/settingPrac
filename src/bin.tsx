@@ -1,8 +1,11 @@
 import React from "react";
-const Bin: React.FC = () => {
+interface BinProps {
+  h1TextNode: string;
+}
+const Bin: React.FC<BinProps> = ({ h1TextNode }) => {
   return (
     <div>
-      <h1>배고파</h1>
+      <h1>{h1TextNode}</h1>
     </div>
   );
 };
