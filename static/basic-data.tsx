@@ -1,2 +1,2 @@
-const minam: string = "아무나";
+const minam: string = "test";
 export default minam;
