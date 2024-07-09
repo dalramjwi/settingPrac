@@ -56,7 +56,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
   \***********************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst arr = [\"one\", \"two\", \"three\", \"four\", \"five\", \"six\", \"seven\", \"eight\"];\nexports[\"default\"] = arr;\n\n//# sourceURL=webpack://reactprac/./src/static/array-data.tsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nconst arr = [\"칠리새우\", \"크림새우\", \"국물닭발\", \"찹쌀탕수육\", \"순대국밥\", \"크레페\", \"브이콘\", \"치즈폼흑당스무디\"];\nexports[\"default\"] = arr;\n\n//# sourceURL=webpack://reactprac/./src/static/array-data.tsx?");
 
 /***/ }),
 
