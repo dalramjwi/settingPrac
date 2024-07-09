@@ -10,7 +10,7 @@ const Minam: React.FC<textNode> = ({ textNode }) => {
 const App: React.FC = () => {
   return (
     <div>
-      <Minam textNode="아무나" />
+      <Minam textNode={basicData} />
       <h1>Hello</h1>
     </div>
   );
