@@ -1,4 +1,5 @@
 import React from "react";
+import basicData from "../static/basic-data";
 interface textNode {
   textNode: string;
 }
