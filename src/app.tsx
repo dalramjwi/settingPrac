@@ -5,11 +5,7 @@ import Ul from "./ul";
 import Li from "./li";
 import arr from "./static/array-data";
 import Bin from "./bin";
-let styles: React.CSSProperties = {
-  color: "white",
-  backgroundColor: "black",
-  fontSize: "48px",
-};
+import styles from "./static/style";
 const App: React.FC = () => {
   return (
     <div>
