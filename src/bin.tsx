@@ -4,11 +4,13 @@ interface BinProps {
 }
 const Bin: React.FC<BinProps> = ({ h1TextNode }) => {
   let style: React.CSSProperties = {
-    color: "blue",
+    color: "white",
+    backgroundColor: "black",
+    fontSize: "48px",
   };
   return (
     <div>
-      <h1 style="color: red;">{h1TextNode}</h1>
+      <h1 style={style}>{h1TextNode}</h1>
     </div>
   );
 };
